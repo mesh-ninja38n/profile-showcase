@@ -1,8 +1,46 @@
-## Sections
-- Headline: short, technical tagline
-- Skills: grouped technical skills
-- Projects: anonymous, tech-focused entries with tags and highlights
-- Highlights: bullet points for accomplishments without personal data
-
-## License
-MIT
+headline: "Technical systems architect • Automation & data pipelines • Containerized workflows"
+skills:
+  - group: "Languages"
+    items: ["Python", "Bash", "SQL", "C++"]
+  - group: "Data & ML"
+    items: ["Pandas", "NumPy", "OpenCV", "TensorFlow (experiments)"]
+  - group: "Systems"
+    items: ["Docker", "Linux", "GitHub Actions", "Nginx"]
+  - group: "Databases"
+    items: ["PostgreSQL", "MySQL", "SQLite"]
+  - group: "Automation"
+    items: ["Job scheduling", "ETL", "Monitoring", "Error handling"]
+projects:
+  - name: "Containerized data pipeline"
+    description: "Composable ETL with reproducible environments and automated reporting."
+    tags: ["Docker", "ETL", "Scheduling"]
+    highlights:
+      - "Deterministic builds and one-command deployment"
+      - "Config-driven tasks with robust logging"
+    repo: "https://github.com/example/containerized-data-pipeline"
+  - name: "Anonymous diagnostics toolkit"
+    description: "Elegant Bash/Python mix for system reporting and health checks."
+    tags: ["Bash", "Python", "Monitoring"]
+    highlights:
+      - "Readable outputs with clear status badges"
+      - "Pluggable modules and minimal dependencies"
+    repo: "https://github.com/example/diagnostics-toolkit"
+  - name: "C++ OpenCV demo suite"
+    description: "Object detection demos with clean build scripts and sample assets."
+    tags: ["C++", "OpenCV"]
+    highlights:
+      - "Modular examples and documented configs"
+      - "Portable builds for quick testing"
+    repo: "https://github.com/example/opencv-demo-suite"
+highlights:
+  - "Built reproducible CI pipelines with cache-aware steps"
+  - "Optimized legacy systems with measurable throughput gains"
+  - "Designed visually clear, modular reports for technical audits"
+badges:
+  - label: "Stacks"
+    value: "Python • Bash • SQL • C++"
+  - label: "Focus"
+    value: "Automation • Containers • Data pipelines"
+output:
+  title: "Profile overview"
+  include_badges: true
